@@ -1,0 +1,31 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem;
+}
+#container .box {
+  margin-bottom: 1.5rem;
+}
+#container .box .box-imagem {
+  width: 500px;
+}
+#container .box-texto {
+  text-align: center;
+  margin: 2rem;
+}
+#container .box-texto h3 {
+  font-size: 2rem;
+  color: #495371;
+  margin-bottom: 0.7rem;
+}
+#container .box-texto h4 {
+  font-size: 1.5rem;
+  color: #74959A;
+  margin-bottom: 1rem;
+}
+#container .box-texto p {
+  font-size: 1.2rem;
+  color: rgb(41, 41, 41);
+  font-weight: 400;
+}/*# sourceMappingURL=container.css.map */
