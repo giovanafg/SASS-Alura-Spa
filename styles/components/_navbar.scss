@@ -1,0 +1,22 @@
+@import '../abstract/variaveis';
+
+nav {
+    text-align: center;
+    ul {
+        li {
+            //inline-block deixa tudo em uma linha
+            display: inline-block;
+            padding: 1rem;
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: bold;
+                color: $cor-primaria;
+                //seletor & mostra quais outros comportamentos que quero ter dentro de uma tag
+                &:hover{
+                    border-bottom: 2px solid $cor-secundaria;
+                }
+            }
+        }
+    }
+}
